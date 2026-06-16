@@ -1,0 +1,21 @@
+Help
+am --help
+am -h
+
+Version
+am --version
+am -v
+
+Profiles
+am add "gcc" : "path/to/executable/file/gcc"
+am delete "gcc"
+
+Build
+am build past/to/config/myCoolProject.upc
+am build past/to/config/myCoolProject.upc --save-c --profile="gcc" --verbose --ast --tokens
+am build past/to/config/myCoolProject.upc --save-c --profile=auto --verbose --ast --tokens
+
+Build
+am test past/to/config/myCoolProject.upc
+am test past/to/config/myCoolProject.upc --save-c --profile="gcc" --verbose --ast --tokens
+am test past/to/config/myCoolProject.upc --save-c --profile=auto --verbose --ast --tokens
