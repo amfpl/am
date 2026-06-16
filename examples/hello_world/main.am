@@ -1,1 +1,5 @@
-a
+import.addSpace('std/io', io, io());
+program.addSpace('hw', hello() {
+    io.outputln("Hello, world!");
+    program.end(0);
+})(use io);
