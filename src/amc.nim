@@ -1,4 +1,4 @@
-import cli/cli
+import cli
 
 when isMainModule:
   cli.run()
