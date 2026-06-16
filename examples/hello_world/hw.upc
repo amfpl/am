@@ -5,7 +5,7 @@
   name="Example"
 
 #[build]
-  main={./src/main.am}
+  main={./main.am}
   platform=@["win", "linux"]
   test=[:test_build]
   release=[:release_build]
