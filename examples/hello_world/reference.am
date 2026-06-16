@@ -1,0 +1,5 @@
+import.addSpace('std/io', io, io()); // import.addSpace(PATH_TO_MODULE, NAME, CALL_USE)
+program.addSpace('hw', () { // program.addSpace(NAME, () { body })(if need then you may add other spaces)
+    io.outputln("Hello, world!"); // Function for Output in console with auto-add new line in the end 
+    program.end(0); // Successfully exit (0 - success, 1 - error)
+})(use io); // In last brackets you may add other spaces
